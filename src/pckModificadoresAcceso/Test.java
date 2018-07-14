@@ -3,14 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pckMain;
+package pckModificadoresAcceso;
 
 /**
  *
  * @author cgsan
  */
-public class ConstructoresDefecto {
+public class Test {
     public static void main(String[] args) {
-        ConstructoresDefecto oConstructoresDefecto = new ConstructoresDefecto();
+        Perro fido = new Perro();
+        
+        fido.setNombre("Fido");
+        fido.getNombre();
+        fido.getRaza();
+        //fido.getId(); atributo private
     }
 }
